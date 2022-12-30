@@ -77,6 +77,7 @@ flutter-app/
 
 
 ##### Here is the folder structure we have been using in this project
+```sh
 lib/
 |-api/ - Global Restful api requests, including interceptors, etc.
    |- interceptors - Interceptors, including auth, request, and response interceptors.
@@ -101,3 +102,6 @@ lib/
 |- app_bindings.dart - Services started before the app runs, such as Restful api.
 |- di.dart - Global dependency injection objects, such as SharedPreferences, etc.
 |- main.dart - Main entry.
+```
+
+
